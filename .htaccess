@@ -1,0 +1,28 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+				# BEGIN MyHome IDX Broker
+				<FilesMatch "\.(ttf|otf|eot|woff)$">
+				<IfModule mod_headers.c>
+					Header set Access-Control-Allow-Origin "*"
+				</IfModule>
+				</FilesMatch>
+				# END MyHome IDX Broker
+				
+# END WordPress

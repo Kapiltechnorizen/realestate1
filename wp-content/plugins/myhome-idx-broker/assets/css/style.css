@@ -1,0 +1,166 @@
+#idxStart {
+    background: green;
+    color: #fff;
+    width: 50%;
+    height: 100px;
+    display: block;
+    float: left;
+}
+
+#idxStart:after {
+    content: 'idxStar';
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+}
+
+#idxStop {
+    background: red;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    float: left;
+}
+
+#idxStop:after {
+    content: 'idxStop';
+    display: block;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+div[id*=idx_omnibar_widget] .widget-content p:nth-child(2),
+div[id*=idx_omnibar_widget] .widget-content p:nth-child(3),
+div[id*=idx_omnibar_widget] .widget-content p:nth-child(4) {
+    display: none !important;
+}
+
+.mh-basic-settings-table th {
+    width: 260px;
+}
+
+input#api-key {
+    width: 200px;
+}
+
+#images-limit {
+    width: 50px;
+}
+
+.mh-idx-info-start {
+    padding: 24px 12px 24px 24px;
+    background: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 24px;
+    border-left: 5px solid #222;
+}
+
+.mh-idx-max-width {
+    max-width: 700px;
+}
+
+.mh-idx-info-registration {
+    padding: 24px 12px 12px 24px;
+    background: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 24px;
+    border-left: 5px solid #0085ba;
+}
+
+.mh-idx-info-registration h2 {
+    margin-top: 0;
+}
+
+.mh-idx-form-basic {
+    padding: 24px 12px 12px 24px;
+    background: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 24px;
+    border-left: 5px solid #c7ca1f;
+}
+
+.mh-idx-form-basic h2 {
+    margin-top: 0;
+}
+
+.mh-idx-form-basic__heading {
+    display: block;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.mh-idx-form-basic__subheading {
+    display: block;
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mh-idx-auto-setup {
+    padding: 24px 12px 12px 24px;
+    background: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 24px;
+    border-left: 5px solid #222;
+}
+
+.mh-idx-auto-setup h2 {
+    margin-top: 0;
+}
+
+.mh-idx-cache {
+    padding: 24px 12px 12px 24px;
+    background: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 24px;
+    border-left: 5px solid #0085ba;
+}
+
+.mh-idx-cache h2 {
+    margin-top: 0;
+}
+
+.mh-breadcrumbs-default-values {
+    padding: 12px;
+    background: #f9f9f9;
+}
+
+.toplevel_page_myhome_idx_broker h1,
+.myhome-idx-broker_page_myhome_idx_broker_properties h1,
+.myhome-idx-broker_page_myhome_idx_broker_fields h1,
+.myhome-idx-broker_page_myhome_idx_broker_agents h1,
+.myhome-idx-broker_page_myhome_idx_broker_mls h1 {
+    margin-top: 12px;
+}
+
+.widget-content p:nth-child(2),
+.widget-content p:nth-child(3),
+.widget-content p:nth-child(4) {
+    display: block !important;
+}
+
+div[id*=idx_omnibar_widget] .widget-content p:nth-child(2),
+div[id*=idx_omnibar_widget] .widget-content p:nth-child(3),
+div[id*=idx_omnibar_widget] .widget-content p:nth-child(4) {
+    display: none !important;
+}
+
+.notice-auto-setup {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.notice-auto-setup p {
+    font-size: 21px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
